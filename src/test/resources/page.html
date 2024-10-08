@@ -1,0 +1,771 @@
+
+
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+<head>
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://www.googletagmanager.com" rel="preconnect" crossorigin>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0884B7">
+    <title>Porównywarka cen klocków LEGO - promoklocki.pl</title>
+    <meta name="description" content="Porównywarka cen i katalog klocków LEGO. Sprawdź aktualne promocje i gdzie najtaniej kupisz klocki LEGO. Sprawdzamy ceny klocków LEGO w polskich i zagranicznych sklepach internetowych, porównywarkach cenowych i aukcjach internetowych." />
+    <meta name="keywords" content="klocki,klocki lego,lego promocja,lego okazja,lego najtaniej,promocje,lego,duplo,lego city,chima,nanjago,technic,bricks & more, lego auta,creator, friends" />
+    <meta name="google-site-verification" content="4EoM2CNQBKLS3eN47iv3BwVAizYz7cWUC31CO9-xMtQ" />
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/style.css">
+    <style rel="stylesheet">
+        @font-face{font-family:Roboto;font-style:normal;font-weight:400;font-display:swap;src:local('Roboto'),local('Roboto-Regular'),url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:Roboto;font-style:normal;font-weight:400;font-display:swap;src:local('Roboto'),local('Roboto-Regular'),url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:Roboto;font-style:normal;font-weight:400;font-display:swap;src:local('Roboto'),local('Roboto-Regular'),url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7mxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:Roboto;font-style:normal;font-weight:400;font-display:swap;src:local('Roboto'),local('Roboto-Regular'),url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4WxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0370-03FF}@font-face{font-family:Roboto;font-style:normal;font-weight:400;font-display:swap;src:local('Roboto'),local('Roboto-Regular'),url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7WxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}@font-face{font-family:Roboto;font-style:normal;font-weight:400;font-display:swap;src:local('Roboto'),local('Roboto-Regular'),url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Roboto;font-style:normal;font-weight:400;font-display:swap;src:local('Roboto'),local('Roboto-Regular'),url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Roboto;font-style:normal;font-weight:500;font-display:swap;src:local('Roboto Medium'),local('Roboto-Medium'),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCRc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:Roboto;font-style:normal;font-weight:500;font-display:swap;src:local('Roboto Medium'),local('Roboto-Medium'),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fABc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:Roboto;font-style:normal;font-weight:500;font-display:swap;src:local('Roboto Medium'),local('Roboto-Medium'),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCBc4AMP6lbBP.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:Roboto;font-style:normal;font-weight:500;font-display:swap;src:local('Roboto Medium'),local('Roboto-Medium'),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0370-03FF}@font-face{font-family:Roboto;font-style:normal;font-weight:500;font-display:swap;src:local('Roboto Medium'),local('Roboto-Medium'),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}@font-face{font-family:Roboto;font-style:normal;font-weight:500;font-display:swap;src:local('Roboto Medium'),local('Roboto-Medium'),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fChc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Roboto;font-style:normal;font-weight:500;font-display:swap;src:local('Roboto Medium'),local('Roboto-Medium'),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+    </style>
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16.png">
+    <link rel="icon" type="image/png" href="/static/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="search" type="application/opensearchdescription+xml" title="promoklocki" href="/static/opensearch.xml">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M7XXFZBGJG"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-M7XXFZBGJG');</script>
+    <script>document.addEventListener('DOMContentLoaded',function(){$('#dropdown-toggle').click(function(){$('.dropdown-menu').toggleClass('show');});});</script>
+    <script>function replaceParam(param,newval,search){var regex=new RegExp("([?;&])"+param+"[^&;]*[;&]?");var query=search.replace(regex,"$1").replace(/&$/,'');return(query.length>2?query+(newval?"&":''):"?")+(newval?param+"="+newval:'');}document.addEventListener('DOMContentLoaded',function(){$("#filters-extra-btn").click(function(event){$("#filters-extra").toggle('slow');});$('#category-select').on('change',function(){window.location.href=this.value;});$('#sort-select').on('change',function(){window.location.href=this.value;});$("#filters-extra-submit").click(function(event){var params=window.location.search
+var year=$('select[name=filter-year]');if(year.length&&year.val().trim().length){year=year.val().trim();params=replaceParam('y',year,params)}else{params=replaceParam('y',null,params)}var price_min=$('input[name=filter-min-price]');if(price_min.length&&price_min.val().trim().length){price_min=price_min.val().trim();params=replaceParam('cmin',price_min,params)}else{params=replaceParam('cmin',null,params)}var price_max=$('input[name=filter-max-price]');if(price_max.length&&price_max.val().trim().length){price_max=price_max.val().trim();params=replaceParam('cmax',price_max,params)}else{params=replaceParam('cmax',null,params)}if(params.trim().length>1){window.location.href=window.location.pathname+params;}else{window.location.href=window.location.pathname;}});$('#sr').click(function(){$('.scrollnav').scrollLeft($('.scrollnav').scrollLeft()+100);});$('#sl').click(function(){$('.scrollnav').scrollLeft($('.scrollnav').scrollLeft()-100);});$(document).on("input",".numeric",function(){this.value=this.value.replace(/\D/g,'');if(this.value.length>4){this.value=this.value.slice(0,4);}});});</script>
+    <meta property="og:image" content="https://promoklocki.pl/static/promoklocki.png" />
+    <script type="application/ld+json">
+        [
+            {
+                "@context": "https://schema.org",
+                "@type": "WebSite",
+                "url": "https://promoklocki.pl/",
+                "sameAs": [
+                    "https://www.facebook.com/promoklocki",
+                    "https://www.youtube.com/channel/UC6ZhUr9Et5xw4eEC1ZMyFqQ",
+                    "https://www.instagram.com/promoklocki/",
+                    "https://twitter.com/promoklocki"
+                ],
+                "potentialAction": {
+                    "@type": "SearchAction",
+                    "target": "https://promoklocki.pl/?s={search_term_string}",
+                    "query-input": "required name=search_term_string"
+                }
+            }
+
+
+
+        ]
+    </script>
+
+</head>
+<body>
+<header>
+    <div class="mb-2 text-center" style="background-color:#fff"><a href="/link/aHR0cHM6Ly9jbGljay5saW5rc3luZXJneS5jb20vZGVlcGxpbms_aWQ9Z3F5dkxXMEFJYmMmbWlkPTUwNjQxJm11cmw9aHR0cHMlM0ElMkYlMkZ3d3cubGVnby5jb20lMkZwbC1wbCUyRnBhZ2UlMkZsZWdvLW9mZmVycy1wcm9tb3Rpb25z" target="_blank" title="Gratisy w sklepie LEGO"><script data-pagespeed-no-defer>(function(){for(var g="function"==typeof Object.defineProperties?Object.defineProperty:function(b,c,a){if(a.get||a.set)throw new TypeError("ES3 does not support getters and setters.");b!=Array.prototype&&b!=Object.prototype&&(b[c]=a.value)},h="undefined"!=typeof window&&window===this?this:"undefined"!=typeof global&&null!=global?global:this,k=["String","prototype","repeat"],l=0;l<k.length-1;l++){var m=k[l];m in h||(h[m]={});h=h[m]}var n=k[k.length-1],p=h[n],q=p?p:function(b){var c;if(null==this)throw new TypeError("The 'this' value for String.prototype.repeat must not be null or undefined");c=this+"";if(0>b||1342177279<b)throw new RangeError("Invalid count value");b|=0;for(var a="";b;)if(b&1&&(a+=c),b>>>=1)c+=c;return a};q!=p&&null!=q&&g(h,n,{configurable:!0,writable:!0,value:q});var t=this;function u(b,c){var a=b.split("."),d=t;a[0]in d||!d.execScript||d.execScript("var "+a[0]);for(var e;a.length&&(e=a.shift());)a.length||void 0===c?d[e]?d=d[e]:d=d[e]={}:d[e]=c};function v(b){var c=b.length;if(0<c){for(var a=Array(c),d=0;d<c;d++)a[d]=b[d];return a}return[]};function w(b){var c=window;if(c.addEventListener)c.addEventListener("load",b,!1);else if(c.attachEvent)c.attachEvent("onload",b);else{var a=c.onload;c.onload=function(){b.call(this);a&&a.call(this)}}};var x;function y(b,c,a,d,e){this.h=b;this.j=c;this.l=a;this.f=e;this.g={height:window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight,width:window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth};this.i=d;this.b={};this.a=[];this.c={}}function z(b,c){var a,d,e=c.getAttribute("data-pagespeed-url-hash");if(a=e&&!(e in b.c))if(0>=c.offsetWidth&&0>=c.offsetHeight)a=!1;else{d=c.getBoundingClientRect();var f=document.body;a=d.top+("pageYOffset"in window?window.pageYOffset:(document.documentElement||f.parentNode||f).scrollTop);d=d.left+("pageXOffset"in window?window.pageXOffset:(document.documentElement||f.parentNode||f).scrollLeft);f=a.toString()+","+d;b.b.hasOwnProperty(f)?a=!1:(b.b[f]=!0,a=a<=b.g.height&&d<=b.g.width)}a&&(b.a.push(e),b.c[e]=!0)}y.prototype.checkImageForCriticality=function(b){b.getBoundingClientRect&&z(this,b)};u("pagespeed.CriticalImages.checkImageForCriticality",function(b){x.checkImageForCriticality(b)});u("pagespeed.CriticalImages.checkCriticalImages",function(){A(x)});function A(b){b.b={};for(var c=["IMG","INPUT"],a=[],d=0;d<c.length;++d)a=a.concat(v(document.getElementsByTagName(c[d])));if(a.length&&a[0].getBoundingClientRect){for(d=0;c=a[d];++d)z(b,c);a="oh="+b.l;b.f&&(a+="&n="+b.f);if(c=!!b.a.length)for(a+="&ci="+encodeURIComponent(b.a[0]),d=1;d<b.a.length;++d){var e=","+encodeURIComponent(b.a[d]);131072>=a.length+e.length&&(a+=e)}b.i&&(e="&rd="+encodeURIComponent(JSON.stringify(B())),131072>=a.length+e.length&&(a+=e),c=!0);C=a;if(c){d=b.h;b=b.j;var f;if(window.XMLHttpRequest)f=new XMLHttpRequest;else if(window.ActiveXObject)try{f=new ActiveXObject("Msxml2.XMLHTTP")}catch(r){try{f=new ActiveXObject("Microsoft.XMLHTTP")}catch(D){}}f&&(f.open("POST",d+(-1==d.indexOf("?")?"?":"&")+"url="+encodeURIComponent(b)),f.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),f.send(a))}}}function B(){var b={},c;c=document.getElementsByTagName("IMG");if(!c.length)return{};var a=c[0];if(!("naturalWidth"in a&&"naturalHeight"in a))return{};for(var d=0;a=c[d];++d){var e=a.getAttribute("data-pagespeed-url-hash");e&&(!(e in b)&&0<a.width&&0<a.height&&0<a.naturalWidth&&0<a.naturalHeight||e in b&&a.width>=b[e].o&&a.height>=b[e].m)&&(b[e]={rw:a.width,rh:a.height,ow:a.naturalWidth,oh:a.naturalHeight})}return b}var C="";u("pagespeed.CriticalImages.getBeaconData",function(){return C});u("pagespeed.CriticalImages.Run",function(b,c,a,d,e,f){var r=new y(b,c,a,e,f);x=r;d&&w(function(){window.setTimeout(function(){A(r)},0)})});})();pagespeed.CriticalImages.Run('/ngx_pagespeed_beacon','http://promoklocki.pl/?p=1','8P4NUeUkcl',true,false,'wOoL4DSgI4U');</script><img src="/media/banner/gratisy-w-sklepie-lego_IVeWr0i.jpg" class="banner-top img-fluid rounded" title="Gratisy w sklepie LEGO" data-pagespeed-url-hash="1751425176" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a></div>
+    <div class="container p-0">
+        <div class="row flex-wrap justify-content-between px-2">
+            <div class="col-md-6 col-lg-3 logo order-1 align-self-center text-center text-md-left">
+                <a href="/" title="Porównywarka cen i katalog klocków LEGO&reg;">
+                    <svg viewBox="0 0 250 40" width="200" height="35" xmlns="http://www.w3.org/2000/svg"><g fill="#333"><path d="M11.3 9.6q3 0 5.5 1.4t3.9 4q1.4 2.4 1.4 5.7t-1.4 5.8q-1.4 2.5-3.9 3.9-2.4 1.4-5.5 1.4-2.3 0-4.2-1-2-.8-3.2-2.6v11.2H0V9.8h3.7v3.5q1.3-1.8 3.2-2.7 2-1 4.4-1zM11 28.3q2 0 3.6-1 1.7-.9 2.6-2.6 1-1.8 1-4t-1-4q-1-1.7-2.6-2.7-1.6-1-3.6-1t-3.7 1q-1.6 1-2.6 2.7-.9 1.7-.9 4t1 4q.9 1.7 2.5 2.7 1.7 1 3.7 1zM31 13.5q1-1.9 3-2.9t4.8-1v3.8H38q-3.2 0-5 2-1.8 1.8-1.8 5.3v10.8h-3.8V9.8H31zM52.5 31.8q-3.2 0-5.7-1.5t-4-3.9q-1.4-2.5-1.4-5.7t1.4-5.7q1.5-2.5 4-4 2.5-1.4 5.7-1.4t5.7 1.5q2.5 1.4 4 3.9 1.4 2.5 1.4 5.7T62 26.4q-1.4 2.5-4 4-2.4 1.4-5.6 1.4zm0-3.5q2 0 3.7-1 1.6-.9 2.5-2.6 1-1.8 1-4t-1-4q-.9-1.7-2.5-2.7-1.6-1-3.7-1t-3.7 1q-1.6 1-2.6 2.7-.9 1.7-.9 4t1 4q1 1.7 2.5 2.7 1.7 1 3.7 1zM95.5 9.6q4 0 6.4 2.4 2.4 2.4 2.4 7v12.5h-3.9v-12q0-3.2-1.4-4.7-1.5-1.6-4.1-1.6-3 0-4.7 1.8-1.7 1.9-1.7 5.4v11.1h-3.9v-12q0-3.2-1.4-4.7-1.4-1.6-4-1.6-3 0-4.7 1.8-1.7 1.9-1.7 5.4v11.1h-3.9V9.8h3.7v3.3q1.2-1.7 3-2.6 2-.9 4.3-.9 2.5 0 4.5 1t3 3q1.1-1.8 3.3-2.9 2.1-1 4.8-1zM120.6 31.8q-3.1 0-5.7-1.5t-4-3.9q-1.4-2.5-1.4-5.7T111 15q1.5-2.5 4-4 2.6-1.4 5.7-1.4t5.7 1.5q2.5 1.4 4 3.9 1.4 2.5 1.4 5.7t-1.5 5.7q-1.4 2.5-4 4-2.4 1.4-5.6 1.4zm0-3.5q2 0 3.7-1 1.6-.9 2.6-2.6.9-1.8.9-4t-1-4q-.9-1.7-2.5-2.7-1.6-1-3.7-1t-3.7 1q-1.6 1-2.5 2.7-1 1.7-1 4t1 4q1 1.7 2.5 2.7 1.7 1 3.7 1zM145.3 21.4l-4.4 4.2v6H137V1.1h3.9v19.4l11.6-10.8h4.6l-9 9 10 12.7h-4.8zM161.7 1.2h3.9v30.3h-3.9zM182 31.8q-3.1 0-5.6-1.5t-4-3.9q-1.4-2.5-1.4-5.7t1.4-5.7q1.4-2.5 4-4 2.5-1.4 5.7-1.4t5.6 1.5q2.6 1.4 4 3.9t1.4 5.7-1.4 5.7q-1.4 2.5-4 4-2.5 1.4-5.6 1.4zm0-3.5q2.1 0 3.7-1 1.7-.9 2.6-2.6 1-1.8 1-4t-1-4q-1-1.7-2.6-2.7-1.6-1-3.6-1t-3.7 1q-1.6 1-2.6 2.7-1 1.7-1 4t1 4q1 1.7 2.6 2.7 1.6 1 3.7 1zM207.7 31.8q-3.2 0-5.8-1.5-2.5-1.4-4-3.9-1.4-2.5-1.4-5.7t1.4-5.7q1.5-2.5 4-4 2.6-1.4 5.8-1.4 3 0 5.2 1.2 2.3 1.2 3.5 3.5l-3 1.9q-1-1.6-2.4-2.3t-3.3-.8q-2 0-3.8 1-1.6.9-2.6 2.6-1 1.7-1 4t1 4q1 1.7 2.6 2.7 1.7 1 3.8 1 1.8 0 3.3-.9t2.5-2.3l3 1.9q-1.3 2.2-3.6 3.5-2.3 1.2-5.2 1.2zM229.3 21.4l-4.4 4.2v6h-3.8V1.1h3.8v19.4l11.6-10.8h4.7l-9 9 9.9 12.7h-4.8zM245.5 9.8h3.8v21.7h-3.8zm1.9-4.1q-1.1 0-1.9-.8-.7-.7-.7-1.8t.7-1.8q.8-.7 1.9-.7t1.8.7q.8.7.8 1.8 0 1-.8 1.8-.7.8-1.8.8z" /></g><path d="M63.8 20.3A11.4 11.6 0 0052.4 8.8 11.4 11.6 0 0041 20.3 11.4 11.6 0 0052.4 32a11.4 11.6 0 0011.4-11.6z" fill="#f55" /><path d="M59.8 20.3a7.4 7.5 0 01-7.4 7.5 7.4 7.5 0 01-7.4-7.5 7.4 7.5 0 017.4-7.5 7.4 7.5 0 017.4 7.5z" fill="red" /><path d="M132 20.3a11.4 11.6 0 00-11.3-11.5 11.4 11.6 0 00-11.4 11.5A11.4 11.6 0 00120.7 32a11.4 11.6 0 0011.4-11.6z" fill="#00d400" /><path d="M128 20.3a7.4 7.5 0 01-7.3 7.5 7.4 7.5 0 01-7.4-7.5 7.4 7.5 0 017.4-7.5 7.4 7.5 0 017.4 7.5z" fill="#0a0" /><g><path d="M193.3 20.3A11.4 11.6 0 00182 8.8a11.4 11.6 0 00-11.4 11.5A11.4 11.6 0 00182 32a11.4 11.6 0 0011.4-11.6z" fill="#2ad4ff" /><path d="M189.3 20.3a7.4 7.5 0 01-7.4 7.5 7.4 7.5 0 01-7.3-7.5 7.4 7.5 0 017.3-7.5 7.4 7.5 0 017.4 7.5z" fill="#00aad4" /></g></svg>
+                    <h2 class="logotext mt-0">porównywarka cen klocków LEGO<sup>&reg;</sup></h2>
+                </a>
+            </div>
+            <div class="col-lg-4 col-xl-4 order-3 order-lg-2 align-self-center text-center">
+                <form class="searchbox mb-1" method="get" action="/">
+                    <div class="input-group">
+                        <input name="s" type="text" id="search-box" class="form-control" placeholder="Numer lub nazwa zestawu">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" type="submit">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path fill="white" fill-rule="evenodd" d="M14.53 15.59a8.25 8.25 0 111.06-1.06l5.69 5.69a.75.75 0 11-1.06 1.06l-5.69-5.69zM2.5 9.25a6.75 6.75 0 1111.74 4.547.746.746 0 00-.443.442A6.75 6.75 0 012.5 9.25z"></path></svg>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6 col-lg-5 col-xl-5 order-2 order-lg-3 text-md-right my-2 my-lg-0 text-md-right d-inline-flex align-self-center justify-content-center justify-content-md-end menu">
+                <a href="/okazje-lego" title="Okazyjne oferty na klocki LEGO" class="first">
+                    <div class="text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path fill-rule="evenodd" d="M12.185 21.5c4.059 0 7.065-2.84 7.065-6.75 0-2.337-1.093-3.489-2.678-5.158l-.021-.023c-1.44-1.517-3.139-3.351-3.649-6.557a6.14 6.14 0 00-1.911 1.76c-.787 1.144-1.147 2.633-.216 4.495.603 1.205.777 2.74-.277 3.794-.657.657-1.762 1.1-2.956.586-.752-.324-1.353-.955-1.838-1.79-.567.706-.954 1.74-.954 2.893 0 3.847 3.288 6.75 7.435 6.75zm2.08-19.873c-.017-.345-.296-.625-.632-.543-2.337.575-6.605 4.042-4.2 8.854.474.946.392 1.675.004 2.062-.64.64-1.874.684-2.875-1.815-.131-.327-.498-.509-.803-.334-1.547.888-2.509 2.86-2.509 4.899 0 4.829 4.122 8.25 8.935 8.25 4.812 0 8.565-3.438 8.565-8.25 0-2.939-1.466-4.482-3.006-6.102-1.61-1.694-3.479-3.476-3.479-7.021z"></path></svg>
+                        <span>Okazje</span>
+                    </div>
+                </a>
+                <a href="/promocje-lego" title="Promocje na klocki LEGO" class="ml-3 ml-sm-4">
+                    <div class="text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path fill-rule="evenodd" d="M12 .25a.75.75 0 01.673.418l3.058 6.197 6.839.994a.75.75 0 01.415 1.279l-4.948 4.823 1.168 6.811a.75.75 0 01-1.088.791L12 18.347l-6.117 3.216a.75.75 0 01-1.088-.79l1.168-6.812-4.948-4.823a.75.75 0 01.416-1.28l6.838-.993L11.328.668A.75.75 0 0112 .25zm0 2.445L9.44 7.882a.75.75 0 01-.565.41l-5.725.832 4.143 4.038a.75.75 0 01.215.664l-.978 5.702 5.121-2.692a.75.75 0 01.698 0l5.12 2.692-.977-5.702a.75.75 0 01.215-.664l4.143-4.038-5.725-.831a.75.75 0 01-.565-.41L12 2.694z"></path></svg>
+                        <span>Promocje</span>
+                    </div>
+                </a>
+                <a href="/gazetki-lego" title="Gazetki LEGO" class="ml-3 ml-sm-4">
+                    <div class="text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path fill-rule="evenodd" d="M0 3.75A.75.75 0 01.75 3h7.497c1.566 0 2.945.8 3.751 2.014A4.496 4.496 0 0115.75 3h7.5a.75.75 0 01.75.75v15.063a.75.75 0 01-.755.75l-7.682-.052a3 3 0 00-2.142.878l-.89.891a.75.75 0 01-1.061 0l-.902-.901a3 3 0 00-2.121-.879H.75a.75.75 0 01-.75-.75v-15zm11.247 3.747a3 3 0 00-3-2.997H1.5V18h6.947a4.5 4.5 0 012.803.98l-.003-11.483zm1.503 11.485V7.5a3 3 0 013-3h6.75v13.558l-6.927-.047a4.5 4.5 0 00-2.823.971z"></path></svg>
+                        <span>Gazetki</span>
+                    </div>
+                </a>
+                <a href="/katalog-lego-s3" title="Polskie katalogi LEGO" class="ml-3 ml-sm-4">
+                    <div class="text-center">
+                        <svg viewBox="0 0 20 20" width="20" height="20">
+                            <path d="M17.927,5.828h-4.41l-1.929-1.961c-0.078-0.079-0.186-0.125-0.297-0.125H4.159c-0.229,0-0.417,0.188-0.417,0.417v1.669H2.073c-0.229,0-0.417,0.188-0.417,0.417v9.596c0,0.229,0.188,0.417,0.417,0.417h15.854c0.229,0,0.417-0.188,0.417-0.417V6.245C18.344,6.016,18.156,5.828,17.927,5.828 M4.577,4.577h6.539l1.231,1.251h-7.77V4.577z M17.51,15.424H2.491V6.663H17.51V15.424z"></path>
+                        </svg>
+                        <span>Katalogi</span>
+                    </div>
+                </a>
+                <a href="#" title="Więcej" id="dropdown-toggle" class="ml-3 ml-sm-4">
+                    <div class="text-center">
+                        <svg height="30px" viewBox="0 0 24 24" width="30px" fill="#000000"><path d="M0 0h24v24H0z" fill="none" /><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" /></svg>
+                    </div>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a href="/najtaniej" class="dropdown-item" title="Tanie klocki LEGO">Najtańsze zestawy</a>
+                    <a href="/lego-eol" class="dropdown-item" title="Wycofania zestawy LEGO (EOL)">Wycofania (EOL)</a>
+                    <a href="/najtaniej-w-sklepie-lego" class="dropdown-item" title="Lista zestawów dostępnych najtaniej w sklepie LEGO">Najtaniej w sklepie LEGO<sup>®</sup></a>
+                    <a href="/gazetki-lego" class="dropdown-item" title="Gazetki o tematyce klocków LEGO">Gazetki LEGO<sup>®</sup></a>
+                    <a href="/ksiazki-lego" class="dropdown-item" title="Książki o tematyce klocków LEGO">Książki LEGO<sup>®</sup></a>
+                    <div class="dropdown-divider"></div>
+                    <a href="/premiery-lego" class="dropdown-item" title="Premiery zestawów LEGO">Klockowe premiery</a>
+                    <a href="/lego-kategorie" class="dropdown-item" title="Kategorie zestawów LEGO">Kategorie</a>
+                    <a href="/lego-rok" class="dropdown-item" title="Katalog LEGO rok wydania">Rok po roku</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="/recenzje-zestawow-lego" class="dropdown-item" title="Recenzje zestawów LEGO">Recenzje zestawów LEGO<sup>®</sup></a>
+                    <a href="/polscy-lego-youtuberzy" class="dropdown-item" title="Polscy LEGO Youtuberzy">Polscy LEGO<sup>®</sup> Youtuberzy</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="https://www.facebook.com/promoklocki" class="dropdown-item" title="Porównywarka cen klocków LEGO na Facebook" target="_blank">Facebook</a>
+                    <a href="https://www.youtube.com/channel/UC6ZhUr9Et5xw4eEC1ZMyFqQ" class="dropdown-item" title="Porównywarka cen klocków LEGO na YouTube" target="_blank">YouTube</a>
+                    <a href="https://www.instagram.com/promoklocki/" class="dropdown-item" title="Promoklocki na Instagram" target="_blank">Instagram</a>
+                    <a href="/kontakt" class="dropdown-item" title="Formularz kontaktowy">Kontakt</a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <a href="https://www.siepomaga.pl/antoni-janas" target="_blank">❤️ Pomóż Antosiowi</a>
+        </div>
+    </div>
+</header>
+<div class="main">
+    <div class="container p-0">
+        <h1 class="htitle px-2">Klocki LEGO<sup>&reg;</sup></h1>
+        <div class="content p-2">
+            <div class="d-flex">
+                <span class="btn font-weight-bold" id="sl">&lt;</span>
+                <div class="scrollnav">
+                    <a href="/lego-city-c3" title="Klocki LEGO City">City</a>
+                    <a href="/?s=creator" title="Klocki LEGO Creator">Creator</a>
+                    <a href="/lego-duplo-c1" title="Klocki LEGO Duplo">Duplo</a>
+                    <a href="/lego-friends-c2" title="Klocki LEGO Friends">Friends</a>
+                    <a href="/?s=harry+potter" title="Klocki LEGO Harry Potter">Harry Potter</a>
+                    <a href="/lego-icons-c142" title="Klocki LEGO ICONS">ICONS</a>
+                    <a href="/lego-ideas-c58" title="Klocki LEGO Ideas">Ideas</a>
+                    <a href="/?s=jurassic+world" title="Klocki LEGO Jurassic World">Jurassic World</a>
+                    <a href="/lego-minecraft-c31" title="Klocki LEGO Minecraft">Minecraft</a>
+                    <a href="/lego-minifigurki-c13" title="Minifigurki LEGO">Minifigurki</a>
+                    <a href="/?s=ninjago" title="Klocki LEGO Ninjago">Ninjago</a>
+                    <a href="/lego-speed-champions-c66" title="Klocki LEGO Speed Champions">Speed Champions</a>
+                    <a href="/lego-star-wars-c4" title="Klocki LEGO Star Wars">Star Wars</a>
+                    <a href="/?s=super+heroes" title="Klocki LEGO Super Heroes">Super Heroes</a>
+                    <a href="/lego-technic-c15" title="Klocki LEGO Technic">Technic</a>
+                </div>
+                <span class="btn font-weight-bold" id="sr">&gt;</span>
+            </div>
+        </div>
+
+        <div class="content p-2">
+            <div class="d-flex justify-content-between">
+                <div class="align-self-center d-flex">
+                    <div class="form-group justify-content-start">
+                        <label for="category-select">Kategoria</label>
+                        <select class="form-control form-control-sm" id="category-select">
+                            <option value="/">Wszystkie</option>
+                            <option value="/lego-adventurers-c98">Adventurers</option>
+                            <option value="/lego-agents-c93">Agents</option>
+                            <option value="/lego-akcesoria-c33">Akcesoria</option>
+                            <option value="/lego-alien-conquest-c39">Alien Conquest</option>
+                            <option value="/lego-alpha-team-c131">Alpha Team</option>
+                            <option value="/lego-angry-birds-c71">Angry Birds</option>
+                            <option value="/lego-animal-crossing-c146">Animal Crossing</option>
+                            <option value="/lego-aqua-raiders-c97">Aqua Raiders</option>
+                            <option value="/lego-aquazone-c128">Aquazone</option>
+                            <option value="/lego-architecture-c28">Architecture</option>
+                            <option value="/lego-arctic-c120">Arctic</option>
+                            <option value="/lego-art-c134">Art</option>
+                            <option value="/lego-atlantis-c34">Atlantis</option>
+                            <option value="/lego-auta-c35">Auta</option>
+                            <option value="/lego-avatar-c141">Avatar</option>
+                            <option value="/lego-batman-c95">Batman</option>
+                            <option value="/lego-batman-movie-c73">Batman Movie</option>
+                            <option value="/lego-belville-c43">Belville</option>
+                            <option value="/lego-ben-10-c92">Ben 10</option>
+                            <option value="/lego-bionicle-c63">Bionicle</option>
+                            <option value="/lego-boost-c77">Boost</option>
+                            <option value="/lego-brickheadz-c76">BrickHeadz</option>
+                            <option value="/lego-bricklink-designer-program-c140">BrickLink Designer Program</option>
+                            <option value="/lego-brick-sketches-c126">Brick Sketches</option>
+                            <option value="/lego-bricks-more-c18">Bricks &amp; More</option>
+                            <option value="/lego-building-bigger-thinking-c81">Building Bigger Thinking</option>
+                            <option value="/lego-castle-c11">Castle</option>
+                            <option value="/lego-city-c3">City</option>
+                            <option value="/lego-classic-c62">Classic</option>
+                            <option value="/lego-creator-c19">Creator</option>
+                            <option value="/lego-creator-3w1-c111">Creator 3w1</option>
+                            <option value="/lego-creator-expert-c110">Creator Expert</option>
+                            <option value="/lego-cuusoo-c29">Cuusoo</option>
+                            <option value="/lego-dc-super-heroes-c104">DC Super Heroes</option>
+                            <option value="/lego-dc-super-hero-girls-c75">DC Super Hero Girls</option>
+                            <option value="/lego-dimensions-c136">Dimensions</option>
+                            <option value="/lego-dino-c22">Dino</option>
+                            <option value="/lego-discovery-c118">Discovery</option>
+                            <option value="/lego-disney-c53">Disney</option>
+                            <option value="/lego-dots-c114">DOTS</option>
+                            <option value="/lego-dreamzzz-c145">DREAMZzz</option>
+                            <option value="/lego-duplo-c1">Duplo</option>
+                            <option value="/lego-education-c59">Education</option>
+                            <option value="/lego-elves-c64">Elves</option>
+                            <option value="/lego-exo-force-c96">Exo-Force</option>
+                            <option value="/lego-explorer-c137">Explorer</option>
+                            <option value="/lego-factory-c94">Factory</option>
+                            <option value="/lego-fantastic-beasts-c102">Fantastic Beasts</option>
+                            <option value="/lego-forma-c99">FORMA</option>
+                            <option value="/lego-fortnite-c149">Fortnite</option>
+                            <option value="/lego-friends-c2">Friends</option>
+                            <option value="/lego-galaxy-squad-c10">Galaxy Squad</option>
+                            <option value="/lego-gaming-c139">Gaming</option>
+                            <option value="/lego-ghostbusters-c70">Ghostbusters</option>
+                            <option value="/lego-gry-c24">Gry</option>
+                            <option value="/lego-harry-potter-c41">Harry Potter</option>
+                            <option value="/lego-hero-factory-c14">Hero Factory</option>
+                            <option value="/lego-heroica-c17">Heroica</option>
+                            <option value="/lego-hidden-side-c103">Hidden Side</option>
+                            <option value="/lego-hobbit-c9">Hobbit</option>
+                            <option value="/lego-house-c107">House</option>
+                            <option value="/lego-icons-c142">ICONS</option>
+                            <option value="/lego-ideas-c58">Ideas</option>
+                            <option value="/lego-ikea-c135">IKEA</option>
+                            <option value="/lego-indiana-jones-c61">Indiana Jones</option>
+                            <option value="/lego-inne-c83">Inne</option>
+                            <option value="/lego-island-xtreme-stunts-c132">Island Xtreme Stunts</option>
+                            <option value="/lego-juniors-c52">Juniors</option>
+                            <option value="/lego-jurassic-world-c67">Jurassic World</option>
+                            <option value="/lego-kingdoms-c30">Kingdoms</option>
+                            <option value="/lego-knights-kingdom-c82">Knights&#x27; Kingdom</option>
+                            <option value="/lego-koci-domek-gabi-c144">Koci domek Gabi</option>
+                            <option value="/lego-legends-of-chima-c5">Legends of Chima</option>
+                            <option value="/lego-legoland-c147">LEGOLAND</option>
+                            <option value="/lego-lone-ranger-c16">Lone Ranger</option>
+                            <option value="/lego-lord-of-the-rings-c8">Lord of the Rings</option>
+                            <option value="/lego-mars-mission-c45">Mars Mission</option>
+                            <option value="/lego-marvel-super-heroes-c105">Marvel Super Heroes</option>
+                            <option value="/lego-master-builder-academy-c49">Master Builder Academy</option>
+                            <option value="/lego-mickey-mouse-c106">Mickey Mouse</option>
+                            <option value="/lego-mindstorms-c36">Mindstorms</option>
+                            <option value="/lego-minecraft-c31">Minecraft</option>
+                            <option value="/lego-minifigurki-c13">Minifigurki</option>
+                            <option value="/lego-minions-c115">Minions</option>
+                            <option value="/lego-mixels-c54">Mixels</option>
+                            <option value="/lego-model-team-c125">Model Team</option>
+                            <option value="/lego-monkie-kid-c124">Monkie Kid</option>
+                            <option value="/lego-monster-fighters-c20">Monster Fighters</option>
+                            <option value="/lego-nexo-knights-c69">Nexo Knights</option>
+                            <option value="/lego-ninja-c123">Ninja</option>
+                            <option value="/lego-ninjago-c7">Ninjago</option>
+                            <option value="/lego-ninjago-movie-c78">Ninjago Movie</option>
+                            <option value="/lego-okolicznosciowe-c50">Okolicznościowe</option>
+                            <option value="/lego-orient-expedition-c117">Orient Expedition</option>
+                            <option value="/lego-originals-c112">Originals</option>
+                            <option value="/lego-overwatch-c91">Overwatch</option>
+                            <option value="/lego-pharaohs-quest-c42">Pharaoh&#x27;s Quest</option>
+                            <option value="/lego-pirates-c65">Pirates</option>
+                            <option value="/lego-pirates-of-the-caribbean-c37">Pirates of the Caribbean</option>
+                            <option value="/lego-pociag-c119">Pociąg</option>
+                            <option value="/lego-powered-up-c133">Powered UP</option>
+                            <option value="/lego-power-functions-c26">Power Functions</option>
+                            <option value="/lego-power-miners-c79">Power Miners</option>
+                            <option value="/lego-powerpuff-girls-c88">Powerpuff Girls</option>
+                            <option value="/lego-prince-of-persia-c57">Prince of Persia</option>
+                            <option value="/lego-promocyjne-c85">Promocyjne</option>
+                            <option value="/lego-racers-c46">Racers</option>
+                            <option value="/lego-rock-raiders-c130">Rock Raiders</option>
+                            <option value="/lego-scooby-doo-c68">Scooby-Doo </option>
+                            <option value="/lego-serious-play-c80">Serious Play</option>
+                            <option value="/lego-simpsons-c55">Simpsons</option>
+                            <option value="/lego-sonic-the-hedgehog-c143">Sonic the Hedgehog</option>
+                            <option value="/lego-space-c60">Space</option>
+                            <option value="/lego-space-police-c40">Space Police</option>
+                            <option value="/lego-speed-champions-c66">Speed Champions</option>
+                            <option value="/lego-spongebob-c27">SpongeBob</option>
+                            <option value="/lego-sports-c90">Sports</option>
+                            <option value="/lego-spybotics-c89">Spybotics</option>
+                            <option value="/lego-star-wars-c4">Star Wars</option>
+                            <option value="/lego-statki-c127">Statki</option>
+                            <option value="/lego-stranger-things-c108">Stranger Things</option>
+                            <option value="/lego-studios-c100">Studios</option>
+                            <option value="/lego-super-mario-c116">Super Mario</option>
+                            <option value="/lego-technic-c15">Technic</option>
+                            <option value="/lego-teenage-mutant-ninja-turtles-c12">Teenage Mutant Ninja Turtles</option>
+                            <option value="/lego-the-legend-of-zelda-c148">The Legend of Zelda</option>
+                            <option value="/lego-the-lego-movie-c51">The LEGO Movie</option>
+                            <option value="/lego-the-lego-movie-2-c101">The LEGO Movie 2</option>
+                            <option value="/lego-time-cruisers-c129">Time Cruisers</option>
+                            <option value="/lego-town-c109">Town</option>
+                            <option value="/lego-toy-story-c44">Toy Story</option>
+                            <option value="/lego-trolls-c113">Trolls</option>
+                            <option value="/lego-ultra-agents-c56">Ultra Agents</option>
+                            <option value="/lego-unikitty-c84">Unikitty!</option>
+                            <option value="/lego-vidiyo-c138">VIDIYO</option>
+                            <option value="/lego-vikings-c47">Vikings</option>
+                            <option value="/lego-wednesday-c151">Wednesday</option>
+                            <option value="/lego-western-c122">Western</option>
+                            <option value="/lego-wicked-c150">Wicked</option>
+                            <option value="/lego-wizarding-world-c87">Wizarding World</option>
+                            <option value="/lego-world-racers-c38">World Racers</option>
+                            <option value="/lego-xtra-c86">xtra</option>
+                        </select>
+                    </div>
+                    <div class="form-group justify-content-start">
+                        <label for="sort-select">Sortowanie</label>
+                        <select class="form-control form-control-sm" id="sort-select">
+                            <option value="?p=1&amp;o=1">cena: od najniższej</option>
+                            <option value="?p=1&amp;o=2">cena: od najwyższej</option>
+                            <option value="?p=1&amp;o=3">liczba elementów: od najmniejszej</option>
+                            <option value="?p=1&amp;o=4">liczba elementów: od największej</option>
+                            <option value="?p=1&amp;o=9" selected>rok wydania: najnowsze</option>
+                            <option value="?p=1&amp;o=10">rok wydania: najstarsze</option>
+                            <option value="?p=1&amp;o=5">nazwa zestawu: A-Z</option>
+                            <option value="?p=1&amp;o=6">nazwa zestawu: Z-A</option>
+                            <option value="?p=1&amp;o=11">cena/el.: od najniższej</option>
+                            <option value="?p=1&amp;o=12">cena/el.: od najwyższej</option>
+                            <option value="?p=1&amp;o=13">liczba minifigurek: od najmniejszej</option>
+                            <option value="?p=1&amp;o=14">liczba minifigurek: od największej</option>
+                        </select>
+                    </div>
+                </div>
+                <svg class="align-self-center" xmlns="http://www.w3.org/2000/svg" id="filters-extra-btn" viewBox="0 0 24 24" width="24" height="24"><path fill="black" fill-rule="evenodd" d="M16 12a4 4 0 11-8 0 4 4 0 018 0zm-1.5 0a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"></path><path fill-rule="evenodd" d="M12 1c-.268 0-.534.01-.797.028-.763.055-1.345.617-1.512 1.304l-.352 1.45c-.02.078-.09.172-.225.22a8.45 8.45 0 00-.728.303c-.13.06-.246.044-.315.002l-1.274-.776c-.604-.368-1.412-.354-1.99.147-.403.348-.78.726-1.129 1.128-.5.579-.515 1.387-.147 1.99l.776 1.275c.042.069.059.185-.002.315-.112.237-.213.48-.302.728-.05.135-.143.206-.221.225l-1.45.352c-.687.167-1.249.749-1.304 1.512a11.149 11.149 0 000 1.594c.055.763.617 1.345 1.304 1.512l1.45.352c.078.02.172.09.22.225.09.248.191.491.303.729.06.129.044.245.002.314l-.776 1.274c-.368.604-.354 1.412.147 1.99.348.403.726.78 1.128 1.129.579.5 1.387.515 1.99.147l1.275-.776c.069-.042.185-.059.315.002.237.112.48.213.728.302.135.05.206.143.225.221l.352 1.45c.167.687.749 1.249 1.512 1.303a11.125 11.125 0 001.594 0c.763-.054 1.345-.616 1.512-1.303l.352-1.45c.02-.078.09-.172.225-.22.248-.09.491-.191.729-.303.129-.06.245-.044.314-.002l1.274.776c.604.368 1.412.354 1.99-.147.403-.348.78-.726 1.129-1.128.5-.579.515-1.387.147-1.99l-.776-1.275c-.042-.069-.059-.185.002-.315.112-.237.213-.48.302-.728.05-.135.143-.206.221-.225l1.45-.352c.687-.167 1.249-.749 1.303-1.512a11.125 11.125 0 000-1.594c-.054-.763-.616-1.345-1.303-1.512l-1.45-.352c-.078-.02-.172-.09-.22-.225a8.469 8.469 0 00-.303-.728c-.06-.13-.044-.246-.002-.315l.776-1.274c.368-.604.354-1.412-.147-1.99-.348-.403-.726-.78-1.128-1.129-.579-.5-1.387-.515-1.99-.147l-1.275.776c-.069.042-.185.059-.315-.002a8.465 8.465 0 00-.728-.302c-.135-.05-.206-.143-.225-.221l-.352-1.45c-.167-.687-.749-1.249-1.512-1.304A11.149 11.149 0 0012 1zm-.69 1.525a9.648 9.648 0 011.38 0c.055.004.135.05.162.16l.351 1.45c.153.628.626 1.08 1.173 1.278.205.074.405.157.6.249a1.832 1.832 0 001.733-.074l1.275-.776c.097-.06.186-.036.228 0 .348.302.674.628.976.976.036.042.06.13 0 .228l-.776 1.274a1.832 1.832 0 00-.074 1.734c.092.195.175.395.248.6.198.547.652 1.02 1.278 1.172l1.45.353c.111.026.157.106.161.161a9.653 9.653 0 010 1.38c-.004.055-.05.135-.16.162l-1.45.351a1.833 1.833 0 00-1.278 1.173 6.926 6.926 0 01-.25.6 1.832 1.832 0 00.075 1.733l.776 1.275c.06.097.036.186 0 .228a9.555 9.555 0 01-.976.976c-.042.036-.13.06-.228 0l-1.275-.776a1.832 1.832 0 00-1.733-.074 6.926 6.926 0 01-.6.248 1.833 1.833 0 00-1.172 1.278l-.353 1.45c-.026.111-.106.157-.161.161a9.653 9.653 0 01-1.38 0c-.055-.004-.135-.05-.162-.16l-.351-1.45a1.833 1.833 0 00-1.173-1.278 6.928 6.928 0 01-.6-.25 1.832 1.832 0 00-1.734.075l-1.274.776c-.097.06-.186.036-.228 0a9.56 9.56 0 01-.976-.976c-.036-.042-.06-.13 0-.228l.776-1.275a1.832 1.832 0 00.074-1.733 6.948 6.948 0 01-.249-.6 1.833 1.833 0 00-1.277-1.172l-1.45-.353c-.111-.026-.157-.106-.161-.161a9.648 9.648 0 010-1.38c.004-.055.05-.135.16-.162l1.45-.351a1.833 1.833 0 001.278-1.173 6.95 6.95 0 01.249-.6 1.832 1.832 0 00-.074-1.734l-.776-1.274c-.06-.097-.036-.186 0-.228.302-.348.628-.674.976-.976.042-.036.13-.06.228 0l1.274.776a1.832 1.832 0 001.734.074 6.95 6.95 0 01.6-.249 1.833 1.833 0 001.172-1.277l.353-1.45c.026-.111.106-.157.161-.161z"></path></svg>
+            </div>
+            <div id="filters-extra" class="row justify-content-end px-2 m-0 mb-2" style="display:none">
+                <div class="form-inline">
+                    <div class="form-group">
+                        <label for="filter-year">Rok</label>
+                        <select class="form-control form-control-sm" id="filter-year" name="filter-year">
+                            <option value selected>wszystkie</option>
+                            <option value="2025">2025</option>
+                            <option value="2024">2024</option>
+                            <option value="2023">2023</option>
+                            <option value="2022">2022</option>
+                            <option value="2021">2021</option>
+                            <option value="2020">2020</option>
+                            <option value="2019">2019</option>
+                            <option value="2018">2018</option>
+                            <option value="2017">2017</option>
+                            <option value="2016">2016</option>
+                            <option value="2015">2015</option>
+                            <option value="2014">2014</option>
+                            <option value="2013">2013</option>
+                            <option value="2012">2012</option>
+                            <option value="2011">2011</option>
+                            <option value="2010">2010</option>
+                            <option value="2009">2009</option>
+                            <option value="2008">2008</option>
+                            <option value="2007">2007</option>
+                            <option value="2006">2006</option>
+                            <option value="2005">2005</option>
+                            <option value="2004">2004</option>
+                            <option value="2003">2003</option>
+                            <option value="2002">2002</option>
+                            <option value="2001">2001</option>
+                            <option value="2000">2000</option>
+                            <option value="1999">1999</option>
+                            <option value="1998">1998</option>
+                            <option value="1997">1997</option>
+                            <option value="1996">1996</option>
+                            <option value="1995">1995</option>
+                            <option value="1994">1994</option>
+                            <option value="1993">1993</option>
+                            <option value="1992">1992</option>
+                            <option value="1991">1991</option>
+                            <option value="1990">1990</option>
+                            <option value="1989">1989</option>
+                            <option value="1988">1988</option>
+                            <option value="1987">1987</option>
+                            <option value="1986">1986</option>
+                            <option value="1985">1985</option>
+                            <option value="1984">1984</option>
+                            <option value="1983">1983</option>
+                            <option value="1982">1982</option>
+                            <option value="1981">1981</option>
+                            <option value="1980">1980</option>
+                            <option value="1979">1979</option>
+                            <option value="1978">1978</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Cena</label>
+                        <input type="number" class="form-control form-control-sm numeric numeric-small" name="filter-min-price" placeholder="od" value>
+                        <input type="number" class="form-control form-control-sm numeric numeric-small" name="filter-max-price" placeholder="do" value>
+                    </div>
+                    <button id="filters-extra-submit" class="btn btn-primary">Filtruj</button>
+                </div>
+            </div>
+            <div class="row product m-0 ">
+                <div class="col-4 col-md-2 col-lg-2 text-center align-self-center">
+                    <a href="/lego-animal-crossing-77055-able-sisters-i-sklep-odziezowy-p23054" title="LEGO Animal Crossing 77055 - Able Sisters i sklep odzieżowy">
+                        <img src="/media/77055/lego-77055.s.jpg" alt="LEGO Animal Crossing 77055 - Able Sisters i sklep odzieżowy" title="LEGO Animal Crossing 77055 - Able Sisters i sklep odzieżowy" class="img-fluid" data-pagespeed-url-hash="4283668071" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                    </a>
+                </div>
+                <div class="col-8 col-md-7 col-lg-8 align-self-center text-left">
+                    <a href="/lego-animal-crossing-77055-able-sisters-i-sklep-odziezowy-p23054" title="Klocki LEGO Animal Crossing 77055 - Able Sisters i sklep odzieżowy"><h2>LEGO Animal Crossing 77055 - Able Sisters i sklep odzieżowy</h2></a>
+                    <p class="small d-none d-sm-block">Rok: 2025, liczba elementów: 322, cena/el: <a href="/offer/m23054" title="Przejdź do najtańszej oferty LEGO Animal Crossing 77055 - Able Sisters i sklep odzieżowy" rel="nofollow" target="_blank">0,56zł</a> </p>
+                </div>
+                <div class="col col-md-3 col-lg-2 align-self-center text-right">
+                    <a title="Porównaj ceny klocków LEGO Animal Crossing 77055 - Able Sisters i sklep odzieżowy" class="btn btn-outline-primary d-md-block d-lg-block d-xl-block" href="/lego-animal-crossing-77055-able-sisters-i-sklep-odziezowy-p23054">od <strong>179,99</strong> zł</a>
+                </div>
+            </div>
+            <div class="row product m-0 row-bg">
+                <div class="col-4 col-md-2 col-lg-2 text-center align-self-center">
+                    <a href="/lego-animal-crossing-77054-leif-i-jego-karawan-oraz-sklep-ogrodniczy-p23053" title="LEGO Animal Crossing 77054 - Leif i jego karawan oraz sklep ogrodniczy">
+                        <img src="/media/77054/lego-77054.s.jpg" alt="LEGO Animal Crossing 77054 - Leif i jego karawan oraz sklep ogrodniczy" title="LEGO Animal Crossing 77054 - Leif i jego karawan oraz sklep ogrodniczy" class="img-fluid" data-pagespeed-url-hash="3566390347" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                    </a>
+                </div>
+                <div class="col-8 col-md-7 col-lg-8 align-self-center text-left">
+                    <a href="/lego-animal-crossing-77054-leif-i-jego-karawan-oraz-sklep-ogrodniczy-p23053" title="Klocki LEGO Animal Crossing 77054 - Leif i jego karawan oraz sklep ogrodniczy"><h2>LEGO Animal Crossing 77054 - Leif i jego karawan oraz sklep ogrodniczy</h2></a>
+                    <p class="small d-none d-sm-block">Rok: 2025, liczba elementów: 263, cena/el: <a href="/offer/m23053" title="Przejdź do najtańszej oferty LEGO Animal Crossing 77054 - Leif i jego karawan oraz sklep ogrodniczy" rel="nofollow" target="_blank">0,49zł</a> </p>
+                </div>
+                <div class="col col-md-3 col-lg-2 align-self-center text-right">
+                    <a title="Porównaj ceny klocków LEGO Animal Crossing 77054 - Leif i jego karawan oraz sklep ogrodniczy" class="btn btn-outline-primary d-md-block d-lg-block d-xl-block" href="/lego-animal-crossing-77054-leif-i-jego-karawan-oraz-sklep-ogrodniczy-p23053">od <strong>129,99</strong> zł</a>
+                </div>
+            </div>
+            <div class="row product m-0 ">
+                <div class="col-4 col-md-2 col-lg-2 text-center align-self-center">
+                    <a href="/lego-animal-crossing-77053-obserwacja-gwiazd-z-celeste-p23052" title="LEGO Animal Crossing 77053 - Obserwacja gwiazd z Celeste">
+                        <img src="/media/77053/lego-77053.s.jpg" alt="LEGO Animal Crossing 77053 - Obserwacja gwiazd z Celeste" title="LEGO Animal Crossing 77053 - Obserwacja gwiazd z Celeste" class="img-fluid" data-pagespeed-url-hash="2849112623" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                    </a>
+                </div>
+                <div class="col-8 col-md-7 col-lg-8 align-self-center text-left">
+                    <a href="/lego-animal-crossing-77053-obserwacja-gwiazd-z-celeste-p23052" title="Klocki LEGO Animal Crossing 77053 - Obserwacja gwiazd z Celeste"><h2>LEGO Animal Crossing 77053 - Obserwacja gwiazd z Celeste</h2></a>
+                    <p class="small d-none d-sm-block">Rok: 2025, liczba elementów: 78, cena/el: <a href="/offer/m23052" title="Przejdź do najtańszej oferty LEGO Animal Crossing 77053 - Obserwacja gwiazd z Celeste" rel="nofollow" target="_blank">0,58zł</a> </p>
+                </div>
+                <div class="col col-md-3 col-lg-2 align-self-center text-right">
+                    <a title="Porównaj ceny klocków LEGO Animal Crossing 77053 - Obserwacja gwiazd z Celeste" class="btn btn-outline-primary d-md-block d-lg-block d-xl-block" href="/lego-animal-crossing-77053-obserwacja-gwiazd-z-celeste-p23052">od <strong>44,99</strong> zł</a>
+                </div>
+            </div>
+            <div class="row product m-0 row-bg">
+                <div class="col-4 col-md-2 col-lg-2 text-center align-self-center">
+                    <a href="/lego-inne-40746-ciezarowka-swietego-mikolaja-p23057" title="LEGO Inne 40746 - Ciężarówka Świętego Mikołaja">
+                        <img src="/media/40746/lego-40746.s.jpg" alt="LEGO Inne 40746 - Ciężarówka Świętego Mikołaja" title="LEGO Inne 40746 - Ciężarówka Świętego Mikołaja" class="img-fluid" data-pagespeed-url-hash="2988892115" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                    </a>
+                </div>
+                <div class="col-8 col-md-7 col-lg-8 align-self-center text-left">
+                    <a href="/lego-inne-40746-ciezarowka-swietego-mikolaja-p23057" title="Klocki LEGO Inne 40746 - Ciężarówka Świętego Mikołaja"><h2>LEGO Inne 40746 - Ciężarówka Świętego Mikołaja</h2></a>
+                    <p class="small d-none d-sm-block">Rok: 2024, liczba elementów: 224, cena/el: <a href="/offer/m23057" title="Przejdź do najtańszej oferty LEGO Inne 40746 - Ciężarówka Świętego Mikołaja" rel="nofollow" target="_blank">0,38zł</a> </p>
+                </div>
+                <div class="col col-md-3 col-lg-2 align-self-center text-right">
+                    <a title="Porównaj ceny klocków LEGO Inne 40746 - Ciężarówka Świętego Mikołaja" class="btn btn-outline-primary d-md-block d-lg-block d-xl-block" href="/lego-inne-40746-ciezarowka-swietego-mikolaja-p23057">od <strong>84,99</strong> zł</a>
+                </div>
+            </div>
+            <div class="row product m-0 ">
+                <div class="col-4 col-md-2 col-lg-2 text-center align-self-center">
+                    <a href="/lego-akcesoria-5008078-swiateczny-kubek-ceramiczny-minifigurki-p23056" title="LEGO Akcesoria 5008078 - Świąteczny kubek ceramiczny - Minifigurki">
+                        <img src="/media/5008078/lego-5008078.s.jpg" alt="LEGO Akcesoria 5008078 - Świąteczny kubek ceramiczny - Minifigurki" title="LEGO Akcesoria 5008078 - Świąteczny kubek ceramiczny - Minifigurki" class="img-fluid" data-pagespeed-url-hash="3466922375" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                    </a>
+                </div>
+                <div class="col-8 col-md-7 col-lg-8 align-self-center text-left">
+                    <a href="/lego-akcesoria-5008078-swiateczny-kubek-ceramiczny-minifigurki-p23056" title="Klocki LEGO Akcesoria 5008078 - Świąteczny kubek ceramiczny - Minifigurki"><h2>LEGO Akcesoria 5008078 - Świąteczny kubek ceramiczny - Minifigurki</h2></a>
+                    <p class="small d-none d-sm-block">Rok: 2024, liczba elementów: 1, cena/el: <a href="/offer/m23056" title="Przejdź do najtańszej oferty LEGO Akcesoria 5008078 - Świąteczny kubek ceramiczny - Minifigurki" rel="nofollow" target="_blank">59,99zł</a> </p>
+                </div>
+                <div class="col col-md-3 col-lg-2 align-self-center text-right">
+                    <a title="Porównaj ceny klocków LEGO Akcesoria 5008078 - Świąteczny kubek ceramiczny - Minifigurki" class="btn btn-outline-primary d-md-block d-lg-block d-xl-block" href="/lego-akcesoria-5008078-swiateczny-kubek-ceramiczny-minifigurki-p23056">od <strong>59,99</strong> zł</a>
+                </div>
+            </div>
+            <div class="row product m-0 row-bg">
+                <div class="col-4 col-md-2 col-lg-2 text-center align-self-center">
+                    <a href="/lego-akcesoria-5008077-swiateczny-kubek-ceramiczny-swiety-mikolaj-p23055" title="LEGO Akcesoria 5008077 - Świąteczny kubek ceramiczny - Święty Mikołaj">
+                        <img src="/media/5008077/lego-5008077.s.jpg" alt="LEGO Akcesoria 5008077 - Świąteczny kubek ceramiczny - Święty Mikołaj" title="LEGO Akcesoria 5008077 - Świąteczny kubek ceramiczny - Święty Mikołaj" class="img-fluid" data-pagespeed-url-hash="1029129299" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                    </a>
+                </div>
+                <div class="col-8 col-md-7 col-lg-8 align-self-center text-left">
+                    <a href="/lego-akcesoria-5008077-swiateczny-kubek-ceramiczny-swiety-mikolaj-p23055" title="Klocki LEGO Akcesoria 5008077 - Świąteczny kubek ceramiczny - Święty Mikołaj"><h2>LEGO Akcesoria 5008077 - Świąteczny kubek ceramiczny - Święty Mikołaj</h2></a>
+                    <p class="small d-none d-sm-block">Rok: 2024, liczba elementów: 1, cena/el: <a href="/offer/m23055" title="Przejdź do najtańszej oferty LEGO Akcesoria 5008077 - Świąteczny kubek ceramiczny - Święty Mikołaj" rel="nofollow" target="_blank">59,99zł</a> </p>
+                </div>
+                <div class="col col-md-3 col-lg-2 align-self-center text-right">
+                    <a title="Porównaj ceny klocków LEGO Akcesoria 5008077 - Świąteczny kubek ceramiczny - Święty Mikołaj" class="btn btn-outline-primary d-md-block d-lg-block d-xl-block" href="/lego-akcesoria-5008077-swiateczny-kubek-ceramiczny-swiety-mikolaj-p23055">od <strong>59,99</strong> zł</a>
+                </div>
+            </div>
+            <div class="row product m-0 ">
+                <div class="col-4 col-md-2 col-lg-2 text-center align-self-center">
+                    <a href="/lego-star-wars-40755-imperialny-transportowiec-kontra-zwiadowczy-smigacz-rebelii-p23051" title="LEGO Star Wars 40755 - Imperialny transportowiec kontra zwiadowczy śmigacz Rebelii">
+                        <img src="/media/40755/lego-40755.s.jpg" alt="LEGO Star Wars 40755 - Imperialny transportowiec kontra zwiadowczy śmigacz Rebelii" title="LEGO Star Wars 40755 - Imperialny transportowiec kontra zwiadowczy śmigacz Rebelii" class="img-fluid" data-pagespeed-url-hash="1745715723" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                    </a>
+                </div>
+                <div class="col-8 col-md-7 col-lg-8 align-self-center text-left">
+                    <a href="/lego-star-wars-40755-imperialny-transportowiec-kontra-zwiadowczy-smigacz-rebelii-p23051" title="Klocki LEGO Star Wars 40755 - Imperialny transportowiec kontra zwiadowczy śmigacz Rebelii"><h2>LEGO Star Wars 40755 - Imperialny transportowiec kontra zwiadowczy śmigacz Rebelii</h2></a>
+                    <p class="small d-none d-sm-block">Rok: 2024, liczba elementów: 383, cena/el: <a href="/offer/m23051" title="Przejdź do najtańszej oferty LEGO Star Wars 40755 - Imperialny transportowiec kontra zwiadowczy śmigacz Rebelii" rel="nofollow" target="_blank">0,46zł</a> </p>
+                </div>
+                <div class="col col-md-3 col-lg-2 align-self-center text-right">
+                    <a title="Porównaj ceny klocków LEGO Star Wars 40755 - Imperialny transportowiec kontra zwiadowczy śmigacz Rebelii" class="btn btn-outline-primary d-md-block d-lg-block d-xl-block" href="/lego-star-wars-40755-imperialny-transportowiec-kontra-zwiadowczy-smigacz-rebelii-p23051">od <strong>174,99</strong> zł</a>
+                </div>
+            </div>
+            <div class="row product m-0 row-bg">
+                <div class="col-4 col-md-2 col-lg-2 text-center align-self-center">
+                    <a href="/lego-star-wars-40730-miecz-swietlny-lukea-skywalkera-p23050" title="LEGO Star Wars 40730 - Miecz świetlny Luke’a Skywalkera">
+                        <img src="/media/40730/lego-40730.s.jpg" alt="LEGO Star Wars 40730 - Miecz świetlny Luke’a Skywalkera" title="LEGO Star Wars 40730 - Miecz świetlny Luke’a Skywalkera" class="img-fluid" data-pagespeed-url-hash="3506091735" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                    </a>
+                </div>
+                <div class="col-8 col-md-7 col-lg-8 align-self-center text-left">
+                    <a href="/lego-star-wars-40730-miecz-swietlny-lukea-skywalkera-p23050" title="Klocki LEGO Star Wars 40730 - Miecz świetlny Luke’a Skywalkera"><h2>LEGO Star Wars 40730 - Miecz świetlny Luke’a Skywalkera</h2></a>
+                    <p class="small d-none d-sm-block">Rok: 2024, liczba elementów: 145, cena/el: <a href="/offer/m23050" title="Przejdź do najtańszej oferty LEGO Star Wars 40730 - Miecz świetlny Luke’a Skywalkera" rel="nofollow" target="_blank">4,54zł</a> </p>
+                </div>
+                <div class="col col-md-3 col-lg-2 align-self-center text-right">
+                    <a title="Porównaj ceny klocków LEGO Star Wars 40730 - Miecz świetlny Luke’a Skywalkera" class="btn btn-outline-primary d-md-block d-lg-block d-xl-block" href="/lego-star-wars-40730-miecz-swietlny-lukea-skywalkera-p23050">od <strong>658,00</strong> zł</a>
+                </div>
+            </div>
+            <div class="row product m-0 ">
+                <div class="col-4 col-md-2 col-lg-2 text-center align-self-center">
+                    <a href="/lego-okolicznosciowe-40697-dynia-na-halloween-p23049" title="LEGO Okolicznościowe 40697 - Dynia na Halloween">
+                        <img src="/media/40697/lego-40697.s.jpg" alt="LEGO Okolicznościowe 40697 - Dynia na Halloween" title="LEGO Okolicznościowe 40697 - Dynia na Halloween" class="img-fluid" data-pagespeed-url-hash="1249925271" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                    </a>
+                </div>
+                <div class="col-8 col-md-7 col-lg-8 align-self-center text-left">
+                    <a href="/lego-okolicznosciowe-40697-dynia-na-halloween-p23049" title="Klocki LEGO Okolicznościowe 40697 - Dynia na Halloween"><h2>LEGO Okolicznościowe 40697 - Dynia na Halloween</h2></a>
+                    <p class="small d-none d-sm-block">Rok: 2024, liczba elementów: 254, cena/el: <a href="/offer/m23049" title="Przejdź do najtańszej oferty LEGO Okolicznościowe 40697 - Dynia na Halloween" rel="nofollow" target="_blank">0,37zł</a> </p>
+                </div>
+                <div class="col col-md-3 col-lg-2 align-self-center text-right">
+                    <a title="Porównaj ceny klocków LEGO Okolicznościowe 40697 - Dynia na Halloween" class="btn btn-outline-primary d-md-block d-lg-block d-xl-block" href="/lego-okolicznosciowe-40697-dynia-na-halloween-p23049">od <strong>92,99</strong> zł</a>
+                </div>
+            </div>
+            <div class="row product m-0 row-bg">
+                <div class="col-4 col-md-2 col-lg-2 text-center align-self-center">
+                    <a href="/lego-brickheadz-40728-bombowe-barwy-p23048" title="LEGO BrickHeadz 40728 - Bombowe Barwy">
+                        <img src="/media/40728/lego-40728.s.jpg" alt="LEGO BrickHeadz 40728 - Bombowe Barwy" title="LEGO BrickHeadz 40728 - Bombowe Barwy" class="img-fluid" data-pagespeed-url-hash="1180277603" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                    </a>
+                </div>
+                <div class="col-8 col-md-7 col-lg-8 align-self-center text-left">
+                    <a href="/lego-brickheadz-40728-bombowe-barwy-p23048" title="Klocki LEGO BrickHeadz 40728 - Bombowe Barwy"><h2>LEGO BrickHeadz 40728 - Bombowe Barwy</h2></a>
+                    <p class="small d-none d-sm-block">Rok: 2024, liczba elementów: 151, cena/el: <a href="/offer/m23048" title="Przejdź do najtańszej oferty LEGO BrickHeadz 40728 - Bombowe Barwy" rel="nofollow" target="_blank">0,48zł</a> </p>
+                </div>
+                <div class="col col-md-3 col-lg-2 align-self-center text-right">
+                    <a title="Porównaj ceny klocków LEGO BrickHeadz 40728 - Bombowe Barwy" class="btn btn-outline-primary d-md-block d-lg-block d-xl-block" href="/lego-brickheadz-40728-bombowe-barwy-p23048">od <strong>71,88</strong> zł</a>
+                </div>
+            </div>
+            <div class="row product m-0 ">
+                <div class="col-4 col-md-2 col-lg-2 text-center align-self-center">
+                    <a href="/lego-icons-10339-poczta-swietego-mikolaja-p23047" title="LEGO ICONS 10339 - Poczta Świętego Mikołaja">
+                        <img src="/media/10339/lego-10339.s.jpg" alt="LEGO ICONS 10339 - Poczta Świętego Mikołaja" title="LEGO ICONS 10339 - Poczta Świętego Mikołaja" class="img-fluid" data-pagespeed-url-hash="784106831" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                    </a>
+                </div>
+                <div class="col-8 col-md-7 col-lg-8 align-self-center text-left">
+                    <a href="/lego-icons-10339-poczta-swietego-mikolaja-p23047" title="Klocki LEGO ICONS 10339 - Poczta Świętego Mikołaja"><h2>LEGO ICONS 10339 - Poczta Świętego Mikołaja</h2></a>
+                    <p class="small d-none d-sm-block">Rok: 2024, liczba elementów: 1440, cena/el: <a href="/offer/m23047" title="Przejdź do najtańszej oferty LEGO ICONS 10339 - Poczta Świętego Mikołaja" rel="nofollow" target="_blank">0,31zł</a> </p>
+                </div>
+                <div class="col col-md-3 col-lg-2 align-self-center text-right">
+                    <a title="Porównaj ceny klocków LEGO ICONS 10339 - Poczta Świętego Mikołaja" class="btn btn-outline-primary d-md-block d-lg-block d-xl-block" href="/lego-icons-10339-poczta-swietego-mikolaja-p23047">od <strong>439,99</strong> zł</a>
+                </div>
+            </div>
+            <div class="row product m-0 row-bg">
+                <div class="col-4 col-md-2 col-lg-2 text-center align-self-center">
+                    <a href="/lego-star-wars-75397-barka-jabby-p23046" title="LEGO Star Wars 75397 - Barka Jabby">
+                        <img src="/media/75397/lego-75397.s.jpg" alt="LEGO Star Wars 75397 - Barka Jabby" title="LEGO Star Wars 75397 - Barka Jabby" class="img-fluid" data-pagespeed-url-hash="1241420539" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                    </a>
+                </div>
+                <div class="col-8 col-md-7 col-lg-8 align-self-center text-left">
+                    <a href="/lego-star-wars-75397-barka-jabby-p23046" title="Klocki LEGO Star Wars 75397 - Barka Jabby"><h2>LEGO Star Wars 75397 - Barka Jabby</h2></a>
+                    <p class="small d-none d-sm-block">Rok: 2024, liczba elementów: 3942, cena/el: <a href="/offer/m23046" title="Przejdź do najtańszej oferty LEGO Star Wars 75397 - Barka Jabby" rel="nofollow" target="_blank">0,44zł</a> </p>
+                </div>
+                <div class="col col-md-3 col-lg-2 align-self-center text-right">
+                    <a title="Porównaj ceny klocków LEGO Star Wars 75397 - Barka Jabby" class="btn btn-outline-primary d-md-block d-lg-block d-xl-block" href="/lego-star-wars-75397-barka-jabby-p23046">od <strong>1749,00</strong> zł</a>
+                </div>
+            </div>
+            <div class="row product m-0 ">
+                <div class="col-4 col-md-2 col-lg-2 text-center align-self-center">
+                    <a href="/lego-brickheadz-40750-wednesday-i-enid-p23045" title="LEGO BrickHeadz 40750 - Wednesday i Enid">
+                        <img src="/media/40750/lego-40750.s.jpg" alt="LEGO BrickHeadz 40750 - Wednesday i Enid" title="LEGO BrickHeadz 40750 - Wednesday i Enid" class="img-fluid" data-pagespeed-url-hash="2454294399" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                    </a>
+                </div>
+                <div class="col-8 col-md-7 col-lg-8 align-self-center text-left">
+                    <a href="/lego-brickheadz-40750-wednesday-i-enid-p23045" title="Klocki LEGO BrickHeadz 40750 - Wednesday i Enid"><h2>LEGO BrickHeadz 40750 - Wednesday i Enid</h2></a>
+                    <p class="small d-none d-sm-block">Rok: 2024, liczba elementów: 239, cena/el: <a href="/offer/m23045" title="Przejdź do najtańszej oferty LEGO BrickHeadz 40750 - Wednesday i Enid" rel="nofollow" target="_blank">0,36zł</a> </p>
+                </div>
+                <div class="col col-md-3 col-lg-2 align-self-center text-right">
+                    <a title="Porównaj ceny klocków LEGO BrickHeadz 40750 - Wednesday i Enid" class="btn btn-outline-primary d-md-block d-lg-block d-xl-block" href="/lego-brickheadz-40750-wednesday-i-enid-p23045">od <strong>84,99</strong> zł</a>
+                </div>
+            </div>
+            <div class="row product m-0 row-bg">
+                <div class="col-4 col-md-2 col-lg-2 text-center align-self-center">
+                    <a href="/lego-wednesday-76781-pokoj-wednesday-i-enid-p23044" title="LEGO Wednesday 76781 - Pokój Wednesday i Enid">
+                        <img src="/media/76781/lego-76781.s.jpg" alt="LEGO Wednesday 76781 - Pokój Wednesday i Enid" title="LEGO Wednesday 76781 - Pokój Wednesday i Enid" class="img-fluid" data-pagespeed-url-hash="4139839715" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                    </a>
+                </div>
+                <div class="col-8 col-md-7 col-lg-8 align-self-center text-left">
+                    <a href="/lego-wednesday-76781-pokoj-wednesday-i-enid-p23044" title="Klocki LEGO Wednesday 76781 - Pokój Wednesday i Enid"><h2>LEGO Wednesday 76781 - Pokój Wednesday i Enid</h2></a>
+                    <p class="small d-none d-sm-block">Rok: 2024, liczba elementów: 750, cena/el: <a href="/offer/m23044" title="Przejdź do najtańszej oferty LEGO Wednesday 76781 - Pokój Wednesday i Enid" rel="nofollow" target="_blank">0,47zł</a> </p>
+                </div>
+                <div class="col col-md-3 col-lg-2 align-self-center text-right">
+                    <a title="Porównaj ceny klocków LEGO Wednesday 76781 - Pokój Wednesday i Enid" class="btn btn-outline-primary d-md-block d-lg-block d-xl-block" href="/lego-wednesday-76781-pokoj-wednesday-i-enid-p23044">od <strong>349,99</strong> zł</a>
+                </div>
+            </div>
+            <div class="row product m-0 ">
+                <div class="col-4 col-md-2 col-lg-2 text-center align-self-center">
+                    <a href="/lego-wednesday-76780-figurka-wednesday-addams-p23043" title="LEGO Wednesday 76780 - Figurka Wednesday Addams">
+                        <img src="/media/76780/lego-76780.s.jpg" alt="LEGO Wednesday 76780 - Figurka Wednesday Addams" title="LEGO Wednesday 76780 - Figurka Wednesday Addams" class="img-fluid" data-pagespeed-url-hash="3422561991" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                    </a>
+                </div>
+                <div class="col-8 col-md-7 col-lg-8 align-self-center text-left">
+                    <a href="/lego-wednesday-76780-figurka-wednesday-addams-p23043" title="Klocki LEGO Wednesday 76780 - Figurka Wednesday Addams"><h2>LEGO Wednesday 76780 - Figurka Wednesday Addams</h2></a>
+                    <p class="small d-none d-sm-block">Rok: 2024, liczba elementów: 702, cena/el: <a href="/offer/m23043" title="Przejdź do najtańszej oferty LEGO Wednesday 76780 - Figurka Wednesday Addams" rel="nofollow" target="_blank">0,29zł</a> </p>
+                </div>
+                <div class="col col-md-3 col-lg-2 align-self-center text-right">
+                    <a title="Porównaj ceny klocków LEGO Wednesday 76780 - Figurka Wednesday Addams" class="btn btn-outline-primary d-md-block d-lg-block d-xl-block" href="/lego-wednesday-76780-figurka-wednesday-addams-p23043">od <strong>200,99</strong> zł</a>
+                </div>
+            </div>
+            <div class="row product m-0 row-bg">
+                <div class="col-4 col-md-2 col-lg-2 text-center align-self-center">
+                    <a href="/lego-ideas-21352-magia-disneya-p23042" title="LEGO Ideas 21352 - Magia Disneya">
+                        <img src="/media/21352/lego-21352.s.jpg" alt="LEGO Ideas 21352 - Magia Disneya" title="LEGO Ideas 21352 - Magia Disneya" class="img-fluid" data-pagespeed-url-hash="1075739907" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                    </a>
+                </div>
+                <div class="col-8 col-md-7 col-lg-8 align-self-center text-left">
+                    <a href="/lego-ideas-21352-magia-disneya-p23042" title="Klocki LEGO Ideas 21352 - Magia Disneya"><h2>LEGO Ideas 21352 - Magia Disneya</h2></a>
+                    <p class="small d-none d-sm-block">Rok: 2024, liczba elementów: 1103, cena/el: <a href="/offer/m23042" title="Przejdź do najtańszej oferty LEGO Ideas 21352 - Magia Disneya" rel="nofollow" target="_blank">0,40zł</a> </p>
+                </div>
+                <div class="col col-md-3 col-lg-2 align-self-center text-right">
+                    <a title="Porównaj ceny klocków LEGO Ideas 21352 - Magia Disneya" class="btn btn-outline-primary d-md-block d-lg-block d-xl-block" href="/lego-ideas-21352-magia-disneya-p23042">od <strong>439,99</strong> zł</a>
+                </div>
+            </div>
+            <div class="row product m-0 ">
+                <div class="col-4 col-md-2 col-lg-2 text-center align-self-center">
+                    <a href="/lego-icons-10391-radosc-z-pharrellem-williamsem-p23041" title="LEGO ICONS 10391 - Radość z Pharrellem Williamsem">
+                        <img src="/media/10391/lego-10391.s.jpg" alt="LEGO ICONS 10391 - Radość z Pharrellem Williamsem" title="LEGO ICONS 10391 - Radość z Pharrellem Williamsem" class="img-fluid" data-pagespeed-url-hash="480427623" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                    </a>
+                </div>
+                <div class="col-8 col-md-7 col-lg-8 align-self-center text-left">
+                    <a href="/lego-icons-10391-radosc-z-pharrellem-williamsem-p23041" title="Klocki LEGO ICONS 10391 - Radość z Pharrellem Williamsem"><h2>LEGO ICONS 10391 - Radość z Pharrellem Williamsem</h2></a>
+                    <p class="small d-none d-sm-block">Rok: 2024, liczba elementów: 966, cena/el: <a href="/offer/m23041" title="Przejdź do najtańszej oferty LEGO ICONS 10391 - Radość z Pharrellem Williamsem" rel="nofollow" target="_blank">0,49zł</a> </p>
+                </div>
+                <div class="col col-md-3 col-lg-2 align-self-center text-right">
+                    <a title="Porównaj ceny klocków LEGO ICONS 10391 - Radość z Pharrellem Williamsem" class="btn btn-outline-primary d-md-block d-lg-block d-xl-block" href="/lego-icons-10391-radosc-z-pharrellem-williamsem-p23041">od <strong>469,99</strong> zł</a>
+                </div>
+            </div>
+            <div class="row product m-0 row-bg">
+                <div class="col-4 col-md-2 col-lg-2 text-center align-self-center">
+                    <a href="/lego-icons-10340-wieniec-p23040" title="LEGO ICONS 10340 - Wieniec">
+                        <img src="/media/10340/lego-10340.s.jpg" alt="LEGO ICONS 10340 - Wieniec" title="LEGO ICONS 10340 - Wieniec" class="img-fluid" data-pagespeed-url-hash="2392643239" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                    </a>
+                </div>
+                <div class="col-8 col-md-7 col-lg-8 align-self-center text-left">
+                    <a href="/lego-icons-10340-wieniec-p23040" title="Klocki LEGO ICONS 10340 - Wieniec"><h2>LEGO ICONS 10340 - Wieniec</h2></a>
+                    <p class="small d-none d-sm-block">Rok: 2024, liczba elementów: 1194, cena/el: <a href="/offer/m23040" title="Przejdź do najtańszej oferty LEGO ICONS 10340 - Wieniec" rel="nofollow" target="_blank">0,36zł</a> </p>
+                </div>
+                <div class="col col-md-3 col-lg-2 align-self-center text-right">
+                    <a title="Porównaj ceny klocków LEGO ICONS 10340 - Wieniec" class="btn btn-outline-primary d-md-block d-lg-block d-xl-block" href="/lego-icons-10340-wieniec-p23040">od <strong>429,00</strong> zł</a>
+                </div>
+            </div>
+            <div class="row product m-0 ">
+                <div class="col-4 col-md-2 col-lg-2 text-center align-self-center">
+                    <a href="/lego-brickheadz-40726-85-lecie-batmana-limitowana-edycja-p23039" title="LEGO BrickHeadz 40726 - 85-lecie Batmana - limitowana edycja">
+                        <img src="/media/40726/lego-40726.s.jpg" alt="LEGO BrickHeadz 40726 - 85-lecie Batmana - limitowana edycja" title="LEGO BrickHeadz 40726 - 85-lecie Batmana - limitowana edycja" class="img-fluid" data-pagespeed-url-hash="4040689451" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                    </a>
+                </div>
+                <div class="col-8 col-md-7 col-lg-8 align-self-center text-left">
+                    <a href="/lego-brickheadz-40726-85-lecie-batmana-limitowana-edycja-p23039" title="Klocki LEGO BrickHeadz 40726 - 85-lecie Batmana - limitowana edycja"><h2>LEGO BrickHeadz 40726 - 85-lecie Batmana - limitowana edycja</h2></a>
+                    <p class="small d-none d-sm-block">Rok: 2024, liczba elementów: 325, cena/el: <a href="/offer/m23039" title="Przejdź do najtańszej oferty LEGO BrickHeadz 40726 - 85-lecie Batmana - limitowana edycja" rel="nofollow" target="_blank">1,20zł</a> </p>
+                </div>
+                <div class="col col-md-3 col-lg-2 align-self-center text-right">
+                    <a title="Porównaj ceny klocków LEGO BrickHeadz 40726 - 85-lecie Batmana - limitowana edycja" class="btn btn-outline-primary d-md-block d-lg-block d-xl-block" href="/lego-brickheadz-40726-85-lecie-batmana-limitowana-edycja-p23039">od <strong>389,00</strong> zł</a>
+                </div>
+            </div>
+            <div class="row product m-0 row-bg">
+                <div class="col-4 col-md-2 col-lg-2 text-center align-self-center">
+                    <a href="/lego-friends-40694-kempingowa-przygoda-nad-rzeka-p23038" title="LEGO Friends 40694 - Kempingowa przygoda nad rzeką">
+                        <img src="/media/40694/lego-40694.s.jpg" alt="LEGO Friends 40694 - Kempingowa przygoda nad rzeką" title="LEGO Friends 40694 - Kempingowa przygoda nad rzeką" class="img-fluid" data-pagespeed-url-hash="3393059395" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                    </a>
+                </div>
+                <div class="col-8 col-md-7 col-lg-8 align-self-center text-left">
+                    <a href="/lego-friends-40694-kempingowa-przygoda-nad-rzeka-p23038" title="Klocki LEGO Friends 40694 - Kempingowa przygoda nad rzeką"><h2>LEGO Friends 40694 - Kempingowa przygoda nad rzeką</h2></a>
+                    <p class="small d-none d-sm-block">Rok: 2024, liczba elementów: 182, cena/el: <a href="/offer/m23038" title="Przejdź do najtańszej oferty LEGO Friends 40694 - Kempingowa przygoda nad rzeką" rel="nofollow" target="_blank">0,52zł</a> </p>
+                </div>
+                <div class="col col-md-3 col-lg-2 align-self-center text-right">
+                    <a title="Porównaj ceny klocków LEGO Friends 40694 - Kempingowa przygoda nad rzeką" class="btn btn-outline-primary d-md-block d-lg-block d-xl-block" href="/lego-friends-40694-kempingowa-przygoda-nad-rzeka-p23038">od <strong>94,99</strong> zł</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="content p-2">
+            <div class="row justify-content-center">
+                <ul class="pagination ">
+                    <li class="page-item disabled">
+                        <span class="page-link" aria-hidden="true" title="First Page">&laquo;</span>
+                    </li>
+                    <li class="page-item disabled">
+                        <span class="page-link" aria-hidden="true" title="Previous Page">&larr;</span>
+                    </li>
+                    <li class="page-item active">
+                        <span class="page-link" aria-label="Current Page" title="Current Page"> 1 </span>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" aria-label="Page 2 of 259" title="Page 2 of 259" href="?p=2"> 2 </a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" aria-label="Page 3 of 259" title="Page 3 of 259" href="?p=3"> 3 </a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" aria-label="Page 4 of 259" title="Page 4 of 259" href="?p=4"> 4 </a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" aria-label="Page 5 of 259" title="Page 5 of 259" href="?p=5"> 5 </a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" aria-label="Next Page" title="Next Page" href="?p=2"><span aria-hidden="true">&rarr;</span></a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" aria-label="Last Page" title="Last Page" href="?p=259"><span aria-hidden="true">&raquo;</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <div class="d-flex justify-content-between flex-wrap">
+            <div>
+                <h4>promoklocki</h4>
+                <ul class="list-unstyled">
+                    <li><a href="/polityka-prywatnosci-s1">Polityka prywatności</a></li>
+                    <li><a href="/kontakt">Kontakt</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Katalog klocków LEGO<sup>&reg;</sup></h4>
+                <ul class="list-unstyled">
+                    <li><a href="/katalog-lego-s3" title="Polskie wydania katalogów LEGO">Polskie katalogi</a></li>
+                    <li><a href="lego-kategorie" title="Kategorie zestawów LEGO">Kategorie</a></li>
+                    <li><a href="/lego-rok" title="Katalog LEGO rok wydania">Rok po roku</a></li>
+                    <li><a href="/najtaniej" title="Tanie klocki LEGO">Najtańsze zestawy</a></li>
+                    <li><a href="/lego-eol" title="Wycofania zestawy LEGO (EOL)">Wycofania (EOL)</a></li>
+                    <li><a href="/najtaniej-w-sklepie-lego" title="Lista zestawów dostępnych najtaniej w sklepie LEGO">Najtaniej w sklepie LEGO<sup>®</sup></a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Klocki LEGO<sup>&reg;</sup></h4>
+                <ul class="list-unstyled">
+                    <li><a href="/recenzje-zestawow-lego" title="Recenzje zestawów LEGO">Recenzje zestawów LEGO<sup>®</sup></a></li>
+                    <li><a href="/polscy-lego-youtuberzy" title="Polscy LEGO Youtuberzy">Polscy LEGO<sup>®</sup> Youtuberzy</a></li>
+                    <li><a href="/klocki-lego-na-sztuki-s6" title="Klocki LEGO na sztuki">Klocki LEGO<sup>®</sup> na sztuki</a></li>
+                    <li><a href="/klockowe-skroty-s7" title="Skóty i pojęcia związane z klockami LEGO">Klockowe skróty</a></li>
+                    <li><a href="/gazetki-lego" title="Gazetki o tematyce klocków LEGO">Gazetki LEGO<sup>®</sup></a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Media społecznościowe</h4>
+                <ul class="list-unstyled">
+                    <li><a href="https://www.facebook.com/promoklocki" title="Porównywarka cen klocków LEGO na Facebook" target="_blank" rel="noopener">Facebook</a></li>
+                    <li><a href="https://www.youtube.com/channel/UC6ZhUr9Et5xw4eEC1ZMyFqQ" title="Porównywarka cen klocków LEGO na YouTube" target="_blank" rel="noopener">YouTube</a></li>
+                    <li><a href="https://www.instagram.com/promoklocki/" title="Promoklocki na Instagram" target="_blank" rel="noopener">Instagram</a></li>
+                    <li><a href="https://www.tiktok.com/@promoklocki" title="Promoklocki na Tik Tok" target="_blank" rel="noopener">Tik Tok</a></li>
+                    <li><a href="https://www.wykop.pl/ludzie/promoklocki/" title="Promoklocki w serwisie Wykop" target="_blank" rel="noopener">Wykop</a></li>
+                </ul>
+            </div>
+        </div>
+        <a href="https://play.google.com/store/apps/details?id=com.olianet.promoklocki&hl=pl&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" target="_blank" rel="noopener"><img alt="pobierz z Google Play" src="/static/pl_badge_web_generic.png" data-pagespeed-url-hash="2121591100" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" /></a>
+        <p class="small">&copy; 2024 promoklocki.pl</p>
+        <p class="small">Część linków do produktów to tzw. linki afiliacyjne za które uzyskujemy prowizję w przypadku dokonania zakupy po przejścu z naszej strony.</p>
+        <p class="small">LEGO&reg; to znak towarowy firmy z Grupy LEGO. Niniejsza witryna nie jest sponsorowana, autoryzowana ani wspierana przez Grupę LEGO.</p>
+    </div>
+</footer>
+<script>function WHCreateCookie(c,d,e){var b=new Date();b.setTime(b.getTime()+(e*24*60*60*1000));var a="; expires="+b.toGMTString();document.cookie=c+"="+d+a+"; path=/"}function WHReadCookie(b){var e=b+"=";var a=document.cookie.split(";");for(var d=0;d<a.length;d++){var f=a[d];while(f.charAt(0)==" "){f=f.substring(1,f.length)}if(f.indexOf(e)==0){return f.substring(e.length,f.length)}}return null}window.onload=WHCheckCookies;function WHCheckCookies(){if(WHReadCookie("promoklocki_cookies_accepted")!="T"){var a=document.createElement("div");a.id="cookies-message-container";var b='<div id="cookies-message" style="padding: 5px 0px; font-size: 12px; line-height: 22px; border-bottom: 1px solid rgb(211, 208, 208); text-align: center; background-color: #efefef; width: 100%; z-index: 999;">Ta strona używa ciasteczek (cookies), dzięki którym nasz serwis może działać lepiej. <a href="https://wszystkoociasteczkach.pl" target="_blank" rel="noreferrer">Dowiedz się więcej</a><a href="javascript:WHCloseCookiesWindow();" id="accept-cookies-checkbox" name="accept-cookies" style="background-color: #00AFBF; padding: 5px 10px; color: #FFF; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; display: inline-block; margin-left: 10px; text-decoration: none; cursor: pointer;">Rozumiem</a></div>';a.innerHTML=b;var c=document.body;c.parentNode.insertBefore(a,c)}}function WHCloseCookiesWindow(){WHCreateCookie("promoklocki_cookies_accepted","T",365);document.getElementById("cookies-message-container").removeChild(document.getElementById("cookies-message"))};</script>
+<script>(function(w,d,s,id){if(typeof(w.webpushr)!=='undefined')return;w.webpushr=w.webpushr||function(){(w.webpushr.q=w.webpushr.q||[]).push(arguments)};var js,fjs=d.getElementsByTagName(s)[0];js=d.createElement(s);js.id=id;js.async=1;js.src="https://cdn.webpushr.com/app.min.js";fjs.parentNode.appendChild(js);}(window,document,'script','webpushr-jssdk'));webpushr('setup',{'key':'BJHHL_RED1vM-18kN8QeptPEMkdKC6mrNxfqgUE1nn4N-bmsUQDv6K4HUMuif8q96uLa7bfS0tktCICaLacd1wI'});</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+services:
+  database:
+    image: 'postgres:17'
+    restart: always
+    environment:
+      - POSTGRES_USER=price-tracker-user
+      - POSTGRES_PASSWORD=price-tracker-password
+      - POSTGRES_DB=price-tracker-database
+    ports:
+      - "5432:5432"
+
