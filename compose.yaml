@@ -1,6 +1,6 @@
 services:
   database:
-    image: 'postgres:17'
+    image: 'postgres:16'
     restart: always
     environment:
       - POSTGRES_USER=price-tracker-user
