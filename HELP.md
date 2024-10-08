@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'io.github.tpalucki.price-tracker' is invalid and this project uses 'io.github.tpalucki.price_tracker' instead.
+* The original package name 'io.github.tpalucki.price-tracker' is invalid and this project uses 'io.github.tpalucki.pricetracker' instead.
 
 # Getting Started
 

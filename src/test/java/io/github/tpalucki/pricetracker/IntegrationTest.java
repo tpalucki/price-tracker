@@ -1,4 +1,4 @@
-package io.github.tpalucki.price_tracker;
+package io.github.tpalucki.pricetracker;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

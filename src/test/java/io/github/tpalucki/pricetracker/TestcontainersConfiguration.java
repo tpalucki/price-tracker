@@ -1,4 +1,4 @@
-package io.github.tpalucki.price_tracker;
+package io.github.tpalucki.pricetracker;
 
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.boot.testcontainers.service.connection.ServiceConnection;

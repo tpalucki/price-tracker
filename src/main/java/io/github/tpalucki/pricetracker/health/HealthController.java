@@ -1,4 +1,4 @@
-package io.github.tpalucki.price_tracker.health;
+package io.github.tpalucki.pricetracker.health;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

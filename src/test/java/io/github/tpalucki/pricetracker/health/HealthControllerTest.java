@@ -1,6 +1,6 @@
-package io.github.tpalucki.price_tracker.health;
+package io.github.tpalucki.pricetracker.health;
 
-import io.github.tpalucki.price_tracker.IntegrationTest;
+import io.github.tpalucki.pricetracker.IntegrationTest;
 import org.junit.jupiter.api.Test;
 import org.springframework.http.HttpEntity;
 

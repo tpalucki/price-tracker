@@ -1,4 +1,4 @@
-package io.github.tpalucki.price_tracker;
+package io.github.tpalucki.pricetracker;
 
 public record SetSummary(
         String brand,
