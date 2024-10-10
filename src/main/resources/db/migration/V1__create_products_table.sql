@@ -11,5 +11,5 @@ CREATE TABLE products (
     elements INT,
     price_per_element DECIMAL(10, 2),
     currency VARCHAR(10),
-    current_minimal_price VARCHAR(50)
+    current_minimal_price DECIMAL(10, 2)
 );

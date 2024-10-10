@@ -192,15 +192,15 @@ public class ProductsRecord extends UpdatableRecordImpl<ProductsRecord> {
     /**
      * Setter for <code>public.products.current_minimal_price</code>.
      */
-    public void setCurrentMinimalPrice(String value) {
+    public void setCurrentMinimalPrice(BigDecimal value) {
         set(12, value);
     }
 
     /**
      * Getter for <code>public.products.current_minimal_price</code>.
      */
-    public String getCurrentMinimalPrice() {
-        return (String) get(12);
+    public BigDecimal getCurrentMinimalPrice() {
+        return (BigDecimal) get(12);
     }
 
     // -------------------------------------------------------------------------
@@ -226,7 +226,7 @@ public class ProductsRecord extends UpdatableRecordImpl<ProductsRecord> {
     /**
      * Create a detached, initialised ProductsRecord
      */
-    public ProductsRecord(UUID id, String title, String link, String smallImgUrl, String mediumImgUrl, String bigImgUrl, String oryginalImgUrl, String descriptionText, Integer year, Integer elements, BigDecimal pricePerElement, String currency, String currentMinimalPrice) {
+    public ProductsRecord(UUID id, String title, String link, String smallImgUrl, String mediumImgUrl, String bigImgUrl, String oryginalImgUrl, String descriptionText, Integer year, Integer elements, BigDecimal pricePerElement, String currency, BigDecimal currentMinimalPrice) {
         super(Products.PRODUCTS);
 
         setId(id);

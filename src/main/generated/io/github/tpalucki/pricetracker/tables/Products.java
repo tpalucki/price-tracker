@@ -114,7 +114,7 @@ public class Products extends TableImpl<ProductsRecord> {
     /**
      * The column <code>public.products.current_minimal_price</code>.
      */
-    public final TableField<ProductsRecord, String> CURRENT_MINIMAL_PRICE = createField(DSL.name("current_minimal_price"), SQLDataType.VARCHAR(50), this, "");
+    public final TableField<ProductsRecord, BigDecimal> CURRENT_MINIMAL_PRICE = createField(DSL.name("current_minimal_price"), SQLDataType.NUMERIC(10, 2), this, "");
 
     private Products(Name alias, Table<ProductsRecord> aliased) {
         this(alias, aliased, (Field<?>[]) null, null);

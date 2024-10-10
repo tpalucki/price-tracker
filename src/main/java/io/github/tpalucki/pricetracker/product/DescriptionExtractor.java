@@ -1,4 +1,4 @@
-package io.github.tpalucki.pricetracker;
+package io.github.tpalucki.pricetracker.product;
 
 
 import org.springframework.stereotype.Component;

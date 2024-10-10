@@ -1,4 +1,4 @@
-package io.github.tpalucki.pricetracker;
+package io.github.tpalucki.pricetracker.product;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;

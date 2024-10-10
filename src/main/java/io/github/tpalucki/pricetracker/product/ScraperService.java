@@ -1,18 +1,20 @@
-package io.github.tpalucki.pricetracker;
+package io.github.tpalucki.pricetracker.product;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
+import java.math.BigDecimal;
+import java.util.UUID;
 
 @Service
 public class ScraperService {
 
-    public static void main(String[] args) {
-        ScraperService scraperService = new ScraperService();
+    private final ProductRepository productRepository;
 
-        scraperService.scrape();
+    public ScraperService(ProductRepository productRepository) {
+        this.productRepository = productRepository;
     }
 
     public void scrape() {
@@ -41,7 +43,7 @@ public class ScraperService {
                         var elements = description.elements();
                         var pricePerElement = description.pricePerElement();
                         var currency = description.currency();
-                        var currentMinimalPrice = product.select("div:nth-child(3) > div > a > strong").text();
+                        var currentMinimalPrice = toDecimal(product.select("div:nth-child(3) > div > a > strong").text());
                         System.out.println(title +
                                            "\n - " + link +
                                            "\n - " + year +
@@ -53,9 +55,29 @@ public class ScraperService {
                                            "\n - " + bigImg +
                                            "\n - " + oryginalImg
                         );
+
+                        productRepository.insert(new Product(
+                                UUID.randomUUID(),
+                                title,
+                                link,
+                                year,
+                                elements,
+                                pricePerElement,
+                                currency,
+                                currentMinimalPrice,
+                                smallImg,
+                                mediumImg,
+                                bigImg,
+                                oryginalImg,
+                                descriptionText
+                        ));
                     });
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    private BigDecimal toDecimal(String text) {
+        return text.isEmpty() ? BigDecimal.ZERO : new BigDecimal(text.replace(",", "."));
     }
 }
