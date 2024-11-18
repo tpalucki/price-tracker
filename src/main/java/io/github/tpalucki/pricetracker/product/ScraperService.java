@@ -12,18 +12,22 @@ import java.util.UUID;
 public class ScraperService {
 
     private final ProductRepository productRepository;
+    private final DescriptionExtractor descriptionExtractor;
 
-    public ScraperService(ProductRepository productRepository) {
+    public ScraperService(ProductRepository productRepository, DescriptionExtractor descriptionExtractor) {
         this.productRepository = productRepository;
+        this.descriptionExtractor = descriptionExtractor;
     }
 
     public void scrape() {
         Document document = null;
-        DescriptionExtractor descriptionExtractor = new DescriptionExtractor();
+
         try {
             // fetching the target website
             var baseUrl = "https://promoklocki.pl";
             var pageQueryParam = "p=";
+            var page = 1;
+
             document = Jsoup.connect(baseUrl + "?" + pageQueryParam + "1")
                     .userAgent("Mozilla/5.0 (Windows; U; WindowsNT 5.1; en-US; rv1.8.1.6) Gecko/20070725 Firefox/2.0.0.6")
                     .header("Accept-Language", "*")
