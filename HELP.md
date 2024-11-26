@@ -45,3 +45,14 @@ Testcontainers has been configured to use the following Docker images:
 
 Please review the tags of the used images and set them to the same as you're running in production.
 
+### How it works
+
+
+1. [ ] Get main page of https://promoklocki.pl/
+   1. [ ] Extract max pages, so we can iterate over all pages
+   2. [ ] Extract every product links & photos
+2. [ ] Get page with details of every product
+   1. [ ] Extract product name
+   2. [ ] Extract product price
+   3. [ ] Extract product photo
+   4. [ ] Extract product link

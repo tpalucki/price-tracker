@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;
 import java.util.Currency;
+import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -15,7 +16,8 @@ class DescriptionExtractorTest {
     void shouldExtractYearFromDescription() {
         var descriptionString = "Rok: 2025, liczba elementów: 322, cena/el: 0,56zł";
 
-        DescriptionExtractor.Description description = descriptionExtractor.parseDescription(descriptionString);
+        Optional<DescriptionExtractor.Description> descriptionOptional = descriptionExtractor.parseDescription(descriptionString);
+        DescriptionExtractor.Description description = descriptionOptional.get();
 
         assertEquals(2025, description.year());
         assertEquals(322, description.elements());

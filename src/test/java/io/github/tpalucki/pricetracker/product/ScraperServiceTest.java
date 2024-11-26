@@ -26,17 +26,17 @@ class ScraperServiceTest {
                     var bigImg = smallImg.replace(".s", ".b");
                     var oryginalImg = smallImg.replace(".s", "");
                     var descriptionText = product.select("div:nth-child(2) > p").text();
-                    var description = descriptionExtractor.parseDescription(descriptionText);
-                    var year = description.year();
-                    var elements = description.elements();
-                    var pricePerElement = description.pricePerElement();
-                    var currency = description.currency();
+//                    var description = descriptionExtractor.parseDescription(descriptionText);
+//                    var year = description.year();
+//                    var elements = description.elements();
+//                    var pricePerElement = description.pricePerElement();
+//                    var currency = description.currency();
                     var currentMinimalPrice = product.select("div:nth-child(3) > div > a > strong").text();
                     System.out.println(title +
                                        "\n - " + link +
-                                       "\n - " + year +
-                                       "\n - " + elements +
-                                       "\n - " + pricePerElement + currency +
+//                                       "\n - " + year +
+//                                       "\n - " + elements +
+//                                       "\n - " + pricePerElement + currency +
                                        "\n - " + currentMinimalPrice +
                                        "\n - " + smallImg +
                                        "\n - " + mediumImg +

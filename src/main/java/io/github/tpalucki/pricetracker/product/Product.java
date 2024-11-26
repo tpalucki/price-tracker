@@ -8,15 +8,16 @@ public record Product(
         UUID id,
         String title,
         String link,
-        Integer year,
-        Integer elements,
-        BigDecimal pricePerElement,
-        Currency currency,
-        BigDecimal currentMinimalPrice,
+//        Integer year,
+//        Integer elements,
+//        BigDecimal pricePerElement,
+//        Currency currency,
+//        BigDecimal currentMinimalPrice,
         String smallImg,
         String mediumImg,
         String bigImg,
-        String oryginalImg,
-        String description
+        String oryginalImg
+//        ,
+//        String description
 ) {
 }

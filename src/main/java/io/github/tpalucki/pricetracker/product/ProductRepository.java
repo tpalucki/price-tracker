@@ -28,12 +28,12 @@ public class ProductRepository {
         baseRecord.setMediumImgUrl(product.mediumImg());
         baseRecord.setBigImgUrl(product.bigImg());
         baseRecord.setOryginalImgUrl(product.oryginalImg());
-        baseRecord.setDescriptionText(product.description());
-        baseRecord.setYear(product.year());
-        baseRecord.setElements(product.elements());
-        baseRecord.setPricePerElement(product.pricePerElement());
-        baseRecord.setCurrency(product.currency().toString());
-        baseRecord.setCurrentMinimalPrice(product.currentMinimalPrice());
+//        baseRecord.setDescriptionText(product.description());
+//        baseRecord.setYear(product.year());
+//        baseRecord.setElements(product.elements());
+//        baseRecord.setPricePerElement(product.pricePerElement());
+//        baseRecord.setCurrency(product.currency().toString());
+//        baseRecord.setCurrentMinimalPrice(product.currentMinimalPrice());
         return baseRecord;
     }
 }
